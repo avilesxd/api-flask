@@ -1,7 +1,3 @@
-# _api-flask_
-
-_API with flask_
-
 # _How to run application?_
 
 ### _steps:_
