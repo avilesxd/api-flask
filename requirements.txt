@@ -1,0 +1,5 @@
+autopep8==2.0.1
+distlib==0.3.6
+filelock==3.9.0
+platformdirs==2.6.2
+virtualenv==20.17.1
