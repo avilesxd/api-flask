@@ -1,6 +1,6 @@
 # _How to run application?_
 
-### _steps:_
+### _Steps:_
 
 - _Create a virtual environment_
 - _Activate the virtual environment_
