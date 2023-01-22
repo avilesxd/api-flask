@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from config import config
-from db_infomation import Company, Games
+from db_information import Company, Games
 from db_routes import Routes
 
 
