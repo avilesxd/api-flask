@@ -1,7 +1,8 @@
 from flask import Flask, jsonify
 from config import config
-from db_information import Company, Games
-from db_routes import Routes
+from database.db_company import Company
+from database.db_games import Games
+from routes import Routes
 
 
 app = Flask(__name__)
