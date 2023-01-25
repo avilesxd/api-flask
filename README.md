@@ -16,3 +16,7 @@ The available endpoints are:
 - GET `/games/<id>` : Returns all the information about a specific game
 - GET `/companies` : Returns a list with all companies
 - GET `/companies/<id>` : Returns all the information about a specific company
+
+## License
+
+MIT by Ignacio Avilés
