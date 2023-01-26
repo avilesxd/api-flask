@@ -22,4 +22,4 @@ See the [contributing guide](https://github.com/avilesxd/api-flask/blob/main/CON
 
 ## License
 
-MIT by Ignacio Avilés
+[MIT](https://github.com/avilesxd/api-flask/blob/main/LICENSE) by Ignacio Avilés
