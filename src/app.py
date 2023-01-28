@@ -1,9 +1,9 @@
 from flask import Flask, jsonify
+
 from config import config
 from database.db_company import Company
 from database.db_games import Games
 from routes import Routes
-
 
 app = Flask(__name__)
 
