@@ -1,4 +1,9 @@
 {% extends 'base.html' %} {% block title %}pictures of the games{% endblock %}
 {% block body %} {% for i in imagelist %}
-<img class="img-fluid rounded bg-secondary" src="{{ url_for('static', filename=i)}}" width="200" height="200" />
+<img
+  class="img-fluid rounded bg-secondary"
+  src="{{ url_for('static', filename=i)}}"
+  width="200"
+  height="200"
+/>
 {% endfor %}{% endblock %}
