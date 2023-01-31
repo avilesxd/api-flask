@@ -1,4 +1,5 @@
-from flask import Flask, jsonify
+import os
+from flask import Flask, jsonify, render_template
 
 from config import config
 from database.db_company import Company
@@ -6,6 +7,10 @@ from database.db_games import Games
 from routes import Routes
 
 app = Flask(__name__)
+
+IMG_LIST = os.listdir('src/static/IMG')
+IMG_FOLDER = os.path.join('static', 'IMG')
+app.config['UPLOAD_FOLDER'] = IMG_FOLDER
 
 
 @app.route('/')
@@ -37,6 +42,13 @@ def getCompany(id):
     if (len(foundCompany) > 0):
         return jsonify({"company": foundCompany[0]})
     return jsonify({"message": "company not found"})
+
+
+@app.route('/photos')
+def getPhotos():
+    IMG_LIST = os.listdir('src/static/IMG')
+    IMG_LIST = ['IMG/' + i for i in IMG_LIST]
+    return render_template("photos.html", imagelist=IMG_LIST)
 
 
 if __name__ == '__main__':
