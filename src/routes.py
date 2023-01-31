@@ -20,5 +20,9 @@ Routes = [
                 "description": 'Returns all the information about a specific company'
             }
         ]
+    },
+    {
+        "endpoint": '/photos',
+        "description": 'Returns a list with all photos',
     }
 ]
