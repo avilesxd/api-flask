@@ -51,6 +51,11 @@ def getPhotos():
     return render_template("photos.html", imagelist=IMG_LIST)
 
 
+@app.errorhandler(404)
+def pageNotFound(e):
+    return render_template('404.html'), 404
+
+
 if __name__ == '__main__':
     app.config.from_object(config['development'])
     app.run()
