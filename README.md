@@ -20,6 +20,12 @@
   </a>
 </p>
 
+<div align="center">
+
+[![CodeQL](https://github.com/avilesxd/api-flask/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/avilesxd/api-flask/actions/workflows/github-code-scanning/codeql)
+
+</div>
+
 # How to run application?
 
 ### Steps:
