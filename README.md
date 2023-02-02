@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a aria-label="License" href="https://github.com/avilesxd/api-flask/blob/main/LICENSE">
+  <a aria-label="License" href="src\static\license.svg">
     <img alt="" src="https://img.shields.io/badge/License-MIT-blue">
   </a>
   <a aria-label="Contribute" href="https://github.com/avilesxd/api-flask/blob/main/CONTRIBUTING.md">
