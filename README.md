@@ -82,7 +82,7 @@ The available endpoints are:
 - GET `/companies/<id>` : Returns all the information about a specific company
 - GET `/photos` : Returns a list with all photos
 
-## Authors
+## Author
 
 - Ignacio Avilés ([@avilesxd](https://www.instagram.com/avilesxd/))
 
