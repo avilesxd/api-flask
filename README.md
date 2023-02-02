@@ -26,13 +26,13 @@
 
 1. Create a virtual environment
 
-- windows
+- Windows
 
 ```bash
 python3 -m venv <name_of_virtualenv>
 ```
 
-- linux
+- Linux
 
 ```bash
 python3 -m venv <name_of_virtualenv>
@@ -40,13 +40,13 @@ python3 -m venv <name_of_virtualenv>
 
 2. Activate the virtual environment
 
-- windows
+- Windows
 
 ```bash
 .\env\Scripts\activate
 ```
 
-- linux
+- Linux
 
 ```bash
 source /venv/bin/activate
@@ -60,13 +60,13 @@ pip install -r requirements.txt
 
 4. Run app.py file
 
-- windows
+- Windows
 
 ```bash
 python .\src\app.py
 ```
 
-- linux
+- Linux
 
 ```bash
 python3 ./src/app.py
