@@ -24,10 +24,53 @@
 
 ### Steps:
 
-- Create a virtual environment
-- Activate the virtual environment
-- Install requirements.txt
-- Run app.py file
+1. Create a virtual environment
+
+- windows
+
+```bash
+python3 -m venv <name_of_virtualenv>
+```
+
+- linux
+
+```bash
+python3 -m venv <name_of_virtualenv>
+```
+
+2. Activate the virtual environment
+
+- windows
+
+```bash
+.\env\Scripts\activate
+```
+
+- linux
+
+```bash
+source /venv/bin/activate
+```
+
+3. Install requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run app.py file
+
+- windows
+
+```bash
+python .\src\app.py
+```
+
+- linux
+
+```bash
+python3 ./src/app.py
+```
 
 # Routes
 
