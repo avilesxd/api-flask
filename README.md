@@ -1,3 +1,20 @@
+<p align="center">
+  <a href="https://github.com/avilesxd/api-flask">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="src\static\favicon.ico">
+      <img src="src\static\favicon.ico" height="128">
+    </picture>
+    <h1 align="center">API - Flask</h1>
+  </a>
+</p>
+
+<p align="center">
+  </a>
+  <a aria-label="License" href="https://github.com/avilesxd/api-flask/blob/main/LICENSE">
+    <img alt="" src="https://img.shields.io/npm/l/next.svg?style=for-the-badge&labelColor=000000">
+  </a>
+</p>
+
 # How to run application?
 
 ### Steps:
@@ -17,9 +34,17 @@ The available endpoints are:
 - GET `/companies/<id>` : Returns all the information about a specific company
 - GET `/photos` : Returns a list with all photos
 
+## Authors
+
+- Ignacio Avilés ([@avilesxd](https://www.instagram.com/avilesxd/))
+
 ## Contributing
 
 See the [contributing guide](https://github.com/avilesxd/api-flask/blob/main/CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+
+## Security
+
+If you believe you have found a security vulnerability, we encourage you to responsibly disclose this and not open a public issue. We will investigate all legitimate reports. Email `nacho72001@gmail.com` to disclose any security vulnerabilities.
 
 ## License
 
