@@ -22,7 +22,7 @@
 
 <div align="center">
 
-[![CodeQL](https://github.com/avilesxd/api-flask/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/avilesxd/api-flask/actions/workflows/github-code-scanning/codeql)
+[![CodeQL](https://github.com/avilesxd/api-flask/actions/workflows/codeql.yml/badge.svg)](https://github.com/avilesxd/api-flask/actions/workflows/codeql.yml)
 
 </div>
 
