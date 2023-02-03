@@ -121,11 +121,3 @@ If you believe you have found a security vulnerability, we encourage you to resp
 ## License
 
 [MIT](https://github.com/avilesxd/api-flask/blob/main/LICENSE) by Ignacio Avilés
-
-```
-
-```
-
-```
-
-```
