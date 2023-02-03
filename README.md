@@ -78,6 +78,24 @@ python .\src\app.py
 python3 ./src/app.py
 ```
 
+# How to run tests?
+
+### Steps:
+
+1. Run script
+
+- Windows
+
+```bash
+python .\src\tests\test_routes_api.py
+```
+
+- Linux
+
+```bash
+python3 ./src/tests/test_routes_api.py
+```
+
 # Routes
 
 The available endpoints are:
@@ -103,3 +121,11 @@ If you believe you have found a security vulnerability, we encourage you to resp
 ## License
 
 [MIT](https://github.com/avilesxd/api-flask/blob/main/LICENSE) by Ignacio Avilés
+
+```
+
+```
+
+```
+
+```
