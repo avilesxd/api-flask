@@ -96,6 +96,12 @@ python .\src\tests\test_routes_api.py
 python3 ./src/tests/test_routes_api.py
 ```
 
+- Windows or Linux
+
+```bash
+pytest -v
+```
+
 # Routes
 
 The available endpoints are:
