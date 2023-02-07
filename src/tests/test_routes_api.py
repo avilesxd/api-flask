@@ -21,7 +21,7 @@ class TestAPI(unittest.TestCase):
         req = requests.get("http://127.0.0.1:5000/companies")
         self.assertEqual(req.status_code, 200)
 
-    def test_route_to_get_the_company(self):
+    def test_route_to_get_the_specific_company(self):
         id = random.randint(1, 2)
         req = requests.get(f"http://127.0.0.1:5000/companies/{id}")
         self.assertEqual(req.status_code, 200)
