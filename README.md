@@ -116,6 +116,10 @@ The available endpoints are:
 
 - Ignacio Avilés ([@avilesxd](https://www.instagram.com/avilesxd/))
 
+## Contributors
+
+- IgnS27
+
 ## Contributing
 
 See the [contributing guide](https://github.com/avilesxd/api-flask/blob/main/CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
