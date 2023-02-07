@@ -67,7 +67,7 @@ pip install -r requirements.txt
 - Installed new dependencies? Use the command:
 
 ```bash
-pip freeze < requirements.txt
+pip freeze > requirements.txt
 ```
 
 4. Run app.py file
