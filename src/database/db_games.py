@@ -1,3 +1,4 @@
+# A list of dictionaries for games.
 Games = [
     {
         "id": 1,

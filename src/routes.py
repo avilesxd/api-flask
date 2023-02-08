@@ -1,3 +1,4 @@
+# A list of dictionaries to display all of the application's paths.
 Routes = [
     {
         "endpoint": '/games',

@@ -1,3 +1,4 @@
+# A list of dictionaries for companies.
 Company = [
     {
         "id": 1,
