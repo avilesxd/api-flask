@@ -26,97 +26,118 @@
 
 </div>
 
-# How to run application?
+## Run Locally
 
-### Steps:
+Clone the project
 
-1. Create a virtual environment
+```bash
+  git clone https://github.com/avilesxd/api-flask.git
+
+```
+
+Go to the project directory
+
+```bash
+  cd api-flask
+
+```
+
+Create a virtual environment
 
 - Windows
 
 ```bash
 python3 -m venv <name_of_virtualenv>
+
 ```
 
 - Linux
 
 ```bash
 python3 -m venv <name_of_virtualenv>
+
 ```
 
-2. Activate the virtual environment
+Activate the virtual environment
 
 - Windows
 
 ```bash
 .\env\Scripts\activate
+
 ```
 
 - Linux
 
 ```bash
 source /venv/bin/activate
+
 ```
 
-3. Install requirements.txt
+Install requirements
 
 ```bash
 pip install -r requirements.txt
+
 ```
 
-- Installed new dependencies? Use the command:
+- Before doing a PR, please use the following command:
 
 ```bash
 pip freeze > requirements.txt
+
 ```
 
-4. Run app.py file
+Run app file
 
 - Windows
 
 ```bash
 python .\src\app.py
+
 ```
 
 - Linux
 
 ```bash
 python3 ./src/app.py
+
 ```
 
-# How to run tests?
+## Running Tests
 
-### Steps:
-
-1. Run script
+To run tests, run the following command
 
 - Windows
 
 ```bash
 python .\src\tests\test_routes_api.py
+
 ```
 
 - Linux
 
 ```bash
 python3 ./src/tests/test_routes_api.py
+
 ```
 
 - Windows or Linux
 
 ```bash
 pytest -v
+
 ```
 
-# Routes
+## API routes
 
-The available endpoints are:
-
-- GET `/games` : Returns a list with all games
-- GET `/games/<id>` : Returns all the information about a specific game
-- GET `/companies` : Returns a list with all companies
-- GET `/companies/<id>` : Returns all the information about a specific company
-- GET `/photos` : Returns a list with all photos
+| Methods | route             | Description                                          |
+| :------ | :---------------- | :--------------------------------------------------- | ------------------------------------------------- |
+| `GET`   | `/games`          | Returns a list with all games                        |
+| `GET`   | `/games/<id>`     |                                                      | Returns all the information about a specific game |
+| `GET`   | `/companies`      | Returns a list with all companies                    |
+| `GET`   | `/companies/<id>` | Returns all the information about a specific company |
+| `GET`   | `/photos`         | Returns a list with all photos                       |
 
 ## Author
 
@@ -128,7 +149,11 @@ The available endpoints are:
 
 ## Contributing
 
-See the [contributing guide](https://github.com/avilesxd/api-flask/blob/main/CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+Contributions are always welcome!
+
+See [contributing.md](https://github.com/avilesxd/api-flask/blob/main/CONTRIBUTING.md) for ways to get started.
+
+Please adhere to this project's [code of conduct](https://github.com/avilesxd/api-flask/blob/main/CODE_OF_CONDUCT.md).
 
 ## Security
 
