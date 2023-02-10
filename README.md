@@ -131,7 +131,7 @@ pytest -v
 
 ## API routes
 
-| Methods | route             | Description                                          |
+| Methods | Route             | Description                                          |
 | :------ | :---------------- | :--------------------------------------------------- |
 | `GET`   | `/games`          | Returns a list with all games                        |
 | `GET`   | `/games/<id>`     | Returns all the information about a specific game    |
