@@ -81,7 +81,7 @@ pip install -r requirements.txt
 
 ```
 
-- Before doing a PR, please use the following command:
+- add new dependencies?, use the following command:
 
 ```bash
 pip freeze > requirements.txt
