@@ -58,6 +58,12 @@ python3 -m venv <name_of_virtualenv>
 
 ```
 
+- If an error occurs on Linux (ubuntu or some ubuntu based distribution) while creating a virtual environment, try the following command:
+
+```bash
+sudo apt install python3.10-venv
+```
+
 Activate the virtual environment
 
 - Windows
