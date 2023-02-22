@@ -1,0 +1,7 @@
+{
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+}
