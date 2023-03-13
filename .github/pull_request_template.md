@@ -10,6 +10,6 @@ Make sure you meet the following points before making the "Pull Request":
 
 - [ ] I confirm that I have read the file [CODE OF CONDUCT](https://github.com/avilesxd/api-flask/blob/main/CODE_OF_CONDUCT.md).
 
-## Información
+## Information
 
 - You have all the information in the [README](https://github.com/avilesxd/api-flask/blob/main/README.md) about the project.
