@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 ```
 
-- Did you add any new dependencies, use the following command before doing a PR:
+- Did you add any new dependencies, use the following command before doing a Pull Request:
 
 ```bash
 pip freeze > requirements.txt
