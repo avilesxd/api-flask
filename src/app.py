@@ -90,13 +90,8 @@ def getPhotos():
 
 
 @app.errorhandler(404)
-def pageNotFound(e):
-    """
-    It takes the error code 404 and renders the template 404.html
-    :param e: The exception object
-    :return: a rendered template and a 404 status code.
-    """
-    return render_template('404.html'), 404
+def urlNotFound(e):
+    return jsonify({"Message": "Url not found"})
 
 
 # Running the app.
