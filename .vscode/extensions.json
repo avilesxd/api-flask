@@ -4,5 +4,7 @@
         "stateful.runme",
         "esbenp.prettier-vscode",
         "usernamehw.errorlens",
+        "wix.vscode-import-cost",
+        "dbaeumer.vscode-eslint"
     ]
 }
